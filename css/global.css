@@ -5,17 +5,31 @@
 
 :root
 {
-  --blue :      #0065FC;
+  --blue       : #0065FC;
   --blue-light : #DEEBFF;
-  --grey :      #F2F2F2;
+
+  --grey-light : #F2F2F2;
+  --grey       : #e6e6e6;
+}
+
+body
+{
+  background-color: #FFF;
 }
 
 .mmn-container
 {
   width: 100%;
-  padding: 5px;
-  background-color: #ccc;
+  padding: 10px;
+  background-color: var(--grey);
 }
+
+.mmn-rounded
+{
+  border-radius: 25px;
+
+}
+
 .mmn-container, .mmn-half :after
 {
   content: "";
@@ -25,12 +39,93 @@
 .mmn-half
 {
   width: 50%;
-  padding: 5px;
+
+  background-color: teal;
+  float: left;
+}
+.mmn-quarter
+{
+  width: 25%;
+
+  background-color: teal;
+  float: left;
+}
+.mmn-threequarter
+{
+  width: 75%;
+
+  background-color: teal;
+  float: left;
+}
+.mmn-twothird
+{
+  width: 66.66%;
+
+  background-color: teal;
+  float: left;
+}
+.mmn-third
+{
+  width: 33.33%;
+
   background-color: teal;
   float: left;
 }
 
 
+.flex-container
+{
+  display: flex;
+  justify-content: space-around;
+  background-color: DodgerBlue;
+  flex-wrap: wrap;
+  align-content: space-around;
+  overflow: scroll;
+
+}
+
+.flex-container > div
+{
+  background-color: #f1f1f1;
+  width: 240px;
+  margin: 5px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  flex-grow: 3;
+}
+
+.mmn-grey
+{
+  background-color: var(--grey);
+}
+.mmn-right
+{
+  text-align: right;
+  background-color: green;
+}
+.mmn-left
+{
+  text-align: left;
+  background-color: red;
+}
+.mmn-center
+{
+  text-align: center;
+}
+h1
+{
+  font-size: 18px;
+}
+h2
+{
+  font-size: 16px;
+}
+
+.mmn-padding
+{
+  padding: 20px;
+}
 
 /* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px)
