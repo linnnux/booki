@@ -1,0 +1,89 @@
+
+/* Style the top navigation bar */
+.topnav
+{
+  overflow: hidden;
+  background-color: #333;
+
+}
+
+/* Style the topnav links */
+.topnav a
+{
+  float: right;
+  display: block;
+  color: grey;
+  text-align: center;
+  padding: 14px 18px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover
+{
+  background-color: grey;
+  color: var(--blue);
+  border-top: var(--blue) solid 2px
+}
+.topnav .logo
+{
+  float: left;
+  background-color: var(--grey);
+
+  text-align: left;
+  display: block;
+  /* https://fonts.google.com/specimen/Rancho?preview.text=Booki&preview.text_type=custom */
+  font-family: 'Rancho', cursive;
+  color: var(--blue);
+  font-size: 36px;
+
+}
+.topnav .logo a:hover
+{
+  background-color: grey;
+  color: var(--blue);
+  border: var(--blue) solid 0px
+
+}
+.topnav .logo a
+{
+   color: var(--blue);
+   padding: 0px;
+}
+
+/* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px)
+{
+  .topnav a
+  {
+    width: 50%;
+    float: right;
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 14px 18px;
+    text-decoration: none;
+  }
+  .topnav .logo
+  {
+    overflow: hidden;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+  }
+
+  .topnav a
+  {
+    float: none;
+    width: 100%;
+  }
+  .topnav a:hover
+  {
+    background-color: grey;
+    color: var(--blue);
+    border-top: 0px;
+    border-bottom: var(--blue) solid 2px
+  }
+
+
+}
