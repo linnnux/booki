@@ -20,11 +20,24 @@ body
 
 }
 
+h1
+{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+h2
+{
+  font-size: 16px;
+  font-weight: bold;
+}
+
 .mmn-container
 {
   width: 100%;
   padding: 10px;
   background-color: var(--grey);
+  display: flex;
 }
 
 .mmn-rounded
@@ -39,6 +52,7 @@ body
   display: table;
   clear: both;
 }
+
 .mmn-half
 {
   width: 50%;
@@ -90,7 +104,7 @@ body
 .flex-container > div
 {
   background-color: #f1f1f1;
-  width: 240px;
+  width: 200px;
   margin: 5px;
   text-align: center;
   line-height: 75px;
@@ -105,7 +119,9 @@ body
 .mmn-right
 {
   text-align: right;
-  background-color: green;
+  background-color: purple;
+  width: auto;
+  float: right;
 }
 .mmn-left
 {
@@ -116,14 +132,7 @@ body
 {
   text-align: center;
 }
-h1
-{
-  font-size: 18px;
-}
-h2
-{
-  font-size: 16px;
-}
+
 
 .mmn-padding
 {
@@ -141,6 +150,10 @@ h2
 {
   margin-bottom: 8px;
 }
+
+.item {
+  align-self: auto | flex-start | flex-end | center | baseline | stretch;
+}
 /* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px)
 {
@@ -149,6 +162,14 @@ h2
   {
     width: 100%;
     background-color: orange;
+
   }
+  .mmn-twothird, .mmn-third,
+  {
+    width: 100%;
+    background-color: yellow;
+    padding: 50px;
+  }
+
 
 }

@@ -35,7 +35,7 @@
   /* https://fonts.google.com/specimen/Rancho?preview.text=Booki&preview.text_type=custom */
   font-family: 'Rancho', cursive;
   color: var(--blue);
-  font-size: 36px;
+  font-size: 38px;
 
 }
 .topnav .logo a:hover
@@ -54,23 +54,6 @@
 /* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px)
 {
-  .topnav a
-  {
-    width: 50%;
-    float: right;
-    display: block;
-    color: grey;
-    text-align: center;
-    padding: 14px 18px;
-    text-decoration: none;
-  }
-  .topnav .logo
-  {
-    overflow: hidden;
-    text-align: center;
-    margin: auto;
-    width: 100%;
-  }
 
   .topnav a
   {
@@ -83,6 +66,33 @@
     color: var(--blue);
     border-top: 0px;
     border-bottom: var(--blue) solid 2px
+  }
+  .topnav a
+  {
+    width: 50%;
+    float: left;
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 14px 18px;
+    text-decoration: none;
+  }
+  .topnav .logo
+  {
+    overflow: hidden;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    background-color: brown;
+  }
+  .topnav .logo a
+  {
+    width: 100%;
+    float: left;
+    display: block;
+    color: grey;
+    text-align: center;
+
   }
 
 
