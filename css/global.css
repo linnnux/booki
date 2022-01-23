@@ -1,6 +1,7 @@
 *
 {
   box-sizing: border-box;
+
 }
 
 :root
@@ -15,6 +16,8 @@
 body
 {
   background-color: #FFF;
+  font-family: 'Raleway', sans-serif;
+
 }
 
 .mmn-container
@@ -124,9 +127,20 @@ h2
 
 .mmn-padding
 {
-  padding: 20px;
+  padding: 8px;
 }
-
+.mmn-padding-16
+{
+  padding: 16px;
+}
+.mmn-padding-32
+{
+  padding: 32px;
+}
+.mmn-margin-bootom
+{
+  margin-bottom: 8px;
+}
 /* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px)
 {
