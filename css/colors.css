@@ -1,0 +1,28 @@
+.mmn-white
+{
+  background-color: white;
+}
+.mmn-text-white
+{
+  color: white;
+}
+.mmn-grey
+{
+  background-color: var(--grey);
+}
+.mmn-light-grey
+{
+  background-color: var(--light-grey);
+}
+.mmn-text-light-grey
+{
+  color: var(--light-grey);
+}
+.mmn-text-blue
+{
+  color: var(--blue);
+}
+.mmn-blue
+{
+  background: var(--blue);
+}

@@ -9,7 +9,7 @@
   --blue       : #0065FC;
   --blue-light : #DEEBFF;
 
-  --grey-light : #F2F2F2;
+  --light-grey: #F2F2F2;
   --grey       : #e6e6e6;
 }
 
@@ -17,26 +17,35 @@ body
 {
   background-color: #FFF;
   font-family: 'Raleway', sans-serif;
-
+  text-align: justify;
 }
 
 h1
 {
-  font-size: 18px;
+  font-size: 22px;
   font-weight: bold;
 }
 
 h2
 {
+  font-size: 20px;
+  font-weight: bold;
+}
+h3
+{
   font-size: 16px;
   font-weight: bold;
+}
+p
+{
+  font-size: 14px;
 }
 
 .mmn-container
 {
   width: 100%;
   padding: 10px;
-  background-color: var(--grey);
+
   display: flex;
 }
 
@@ -112,10 +121,7 @@ h2
   flex-grow: 3;
 }
 
-.mmn-grey
-{
-  background-color: var(--grey);
-}
+
 .mmn-right
 {
   text-align: right;
@@ -130,7 +136,9 @@ h2
 }
 .mmn-center
 {
+  margin: auto;
   text-align: center;
+
 }
 
 
@@ -146,6 +154,13 @@ h2
 {
   padding: 32px;
 }
+.mmn-margin
+{
+  margin: 8px;
+}
+{
+  margin-top: 8px;
+}
 .mmn-margin-bootom
 {
   margin-bottom: 8px;
@@ -154,16 +169,36 @@ h2
 {
   margin-top: 8px;
 }
+.mmn-margin-left
+{
+  margin-left: 8px;
+}
+.mmn-margin-right
+{
+  margin-right: 8px;
+}
 
 .item {
   align-self: auto | flex-start | flex-end | center | baseline | stretch;
 }
 
+.mmn-circle
+{
+  border-radius: 50%;
+}
 
-
+.mmn-border
+{
+  border: 1px solid;
+}
 /* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px)
 {
+
+  p
+  {
+    font-size: 14px;
+  }
 
   .mmn-container, .mmn-half
   {
@@ -198,6 +233,19 @@ h2
     line-height: 75px;
     font-size: 30px;
     flex-grow: 3;
+  }
+  span.a {
+  display: inline; /* the default for span */
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid blue;
+  background-color: yellow;
+}
+
+  .mmn-hide-small
+  {
+    display: none;
   }
 
 }
