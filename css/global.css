@@ -177,6 +177,27 @@ h2
     background-color: yellow;
     padding: 50px;
   }
+  .flex-container-r
+  {
+    display: flex;
+    justify-content: space-around;
+    background-color: purple;
+    flex-wrap: wrap;
+    align-content: space-around;
+    overflow: scroll;
+    flex-direction: row-reverse;
 
+  }
+
+  .flex-container-r > section
+  {
+    background-color: pink
+    width: 200px;
+    margin: 5px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    flex-grow: 3;
+  }
 
 }
