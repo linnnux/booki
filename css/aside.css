@@ -1,0 +1,35 @@
+aside div
+{
+  float: left;
+
+}
+
+.div1
+{
+  background: red;
+}
+
+.div2
+{
+  background: yellow;
+}
+
+.div3
+{
+  background: green;
+  float:right;
+}
+
+aside h2
+{
+  font-weight: bold;
+  margin: 0px;
+  padding: 0px;
+}
+main h3
+{
+  font-size: 10px;
+
+  font-weight: bolder;
+
+}

@@ -9,16 +9,21 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Rancho&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Rancho&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;700&family=Rancho&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;700&family=Rancho&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 
 
     <link href="css/global.css" rel="stylesheet" />
     <link href="css/top.css"    rel="stylesheet" />
-    <link href="css/filters.css"   rel="stylesheet" />
+    <link href="css/flex.css"   rel="stylesheet" />
+    <link href="css/filters.css" rel="stylesheet" />
     <link href="css/main.css"   rel="stylesheet" />
-    <link href="css/footer.css"   rel="stylesheet" />
-    <link href="css/colors.css"   rel="stylesheet" />
+    <link href="css/footer.css" rel="stylesheet" />
+    <link href="css/colors.css" rel="stylesheet" />
+    <link href="css/aside.css"  rel="stylesheet" />
+    <link href="css/cards.css"  rel="stylesheet" />
+
+
 
 
 
@@ -26,7 +31,7 @@
 
   </head>
 
-  <body>
+  <body class="mmn-padding">
 
     <header class="mmn-container mmn-margin-bootom mmn-grey">
 
@@ -51,7 +56,7 @@
 
     </header>
 
-    <section class="mmn-container mmn-margin-bootom mmn-padding-32">
+    <section class="mmn-container mmn-margin-bootom">
 
 
         <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
@@ -73,10 +78,10 @@
 
 
         <span class="block">
-        <button class="button mmn-rounded mmn-white"><i class='fas fa-money-bill icon mmn-margin-right'></i>Economique</button>
-        <button class="button mmn-rounded mmn-white"><i class='fas fa-chart-line icon mmn-margin-right'></i>Familial</button>
-        <button class="button mmn-rounded mmn-white"><i class='fas fa-heart      icon mmn-margin-right'></i>Romantique</button>
-        <button class="button mmn-rounded mmn-white"><i class='fas fa-dog        icon mmn-margin-right'></i>Animaux autorisés</button>
+        <button class="button mmn-rounded mmn-white"><i class='fas fa-money-bill icon mmn-margin-right-16'></i><span class="mmn-padding">Economique</span></button>
+        <button class="button mmn-rounded mmn-white"><i class='fas fa-child      icon mmn-margin-right-16'></i><span class="mmn-padding">Familial</span></button>
+        <button class="button mmn-rounded mmn-white"><i class='fas fa-heart      icon mmn-margin-right-16'></i><span class="mmn-padding">Romantique</span></button>
+        <button class="button mmn-rounded mmn-white"><i class='fas fa-dog        icon mmn-margin-right-16'></i><span class="mmn-padding">Animaux autorisés</span></button>
         <span class="c">
       </div>
       <div class="mmn-container mmn-grey">
@@ -85,50 +90,243 @@
       </div>
     </section>
 
-    <main class="mmn-container mmn-grey">
+    <main class="mmn-container">
 
-      <section class="mmn-twothird mmn-padding">
 
-        <div class="mmn-container mmn-rounded">
 
-          <div class="mmn-container mmn-left mmn-padding">
-            <h2>Hébérgement</h2>
+
+      <section class="mmn-twothird mmn-padding" style="background:red">
+
+        <div class="mmn-container mmn-rounded mmn-padding mmn-grey">
+
+          <div class="mmn-container mmn-left">
+            <h2>Hébérgement à Marseille</h2>
           </div>
+
 
           <div class="flex-container">
-            <div>1</div>
-            <div>2</div>
-            <div>3</div>
-            <div>4</div>
-            <div>5</div>
-            <div>6</div>
+
+            <div class="mmn-container card mmn-rounded mmn-padding">
+              <picture class="">
+                <img class="rounded-top-left rounded-top-right"src="../img/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Denim Jeans" style="width:100%">
+              </picture>
+              <div class="mmn-padding">
+                <h2 class="mmn-left">Auberge la Cannebière</h2>
+                <p class="mmn-left">Nuit à partir de <b>25€</b></p>
+                <div class="mmn-left mmn-medium">
+                  <i class='fas fa-star line mmn-text-blue'></i>
+                  <i class='fas fa-star line mmn-text-blue'></i>
+                  <i class='fas fa-star line mmn-text-blue'></i>
+                  <i class='fas fa-star line mmn-text-blue'></i>
+                  <i class='fas fa-star line mmn-text-grey'></i>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="mmn-container card mmn-rounded mmn-padding">
+              <picture class="">
+                <img class="rounded-top-left rounded-top-right"src="../img/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Denim Jeans" style="width:100%">
+              </picture>
+              <div class="mmn-padding">
+                <h2 class="mmn-left">Hôtel du port</h2>
+                <p class="mmn-left">Nuit à partir de 25<b>€</b></p>
+                <div class="mmn-left mmn-medium">
+                  <i class='fas fa-star line mmn-text-blue'></i>
+                  <i class='fas fa-star line mmn-text-blue'></i>
+                  <i class='fas fa-star line mmn-text-blue'></i>
+                  <i class='fas fa-star line mmn-text-blue'></i>
+                  <i class='fas fa-star line mmn-text-blue'></i>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="mmn-container card mmn-rounded mmn-padding">
+              <picture class="">
+                <img class="rounded-top-left rounded-top-right"src="../img/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Denim Jeans" style="width:100%">
+              </picture>
+              <div class="mmn-padding">
+                <h2 class="mmn-left">Hôtel les mouettes</h2>
+                <p class="mmn-left">Nuit à partir de 76<b>€</b></p>
+                <div class="mmn-left mmn-medium">
+                  <i class='fas fa-star line mmn-text-blue'></i>
+                  <i class='fas fa-star line mmn-text-blue'></i>
+                  <i class='fas fa-star line mmn-text-blue'></i>
+                  <i class='fas fa-star line mmn-text-blue'></i>
+                  <i class='fas fa-star line mmn-text-grey'></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="mmn-container card mmn-rounded mmn-padding">
+              <picture class="">
+                <img class="rounded-top-left rounded-top-right"src="../img/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Denim Jeans" style="width:100%">
+              </picture>
+              <div class="mmn-padding">
+                <h2 class="mmn-left">Hôtel de la mer</h2>
+                <p class="mmn-left">Nuit à partir de 46<b>€</b></p>
+                <div class="mmn-left mmn-medium">
+                  <i class='fas fa-star line mmn-text-blue'></i>
+                  <i class='fas fa-star line mmn-text-blue'></i>
+                  <i class='fas fa-star line mmn-text-blue'></i>
+                  <i class='fas fa-star line mmn-text-grey'></i>
+                  <i class='fas fa-star line mmn-text-grey'></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="mmn-container card mmn-rounded mmn-padding">
+              <picture class="">
+                <img class="rounded-top-left rounded-top-right"src="../img/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Denim Jeans" style="width:100%">
+              </picture>
+              <div class="mmn-padding">
+                <h2 class="mmn-left">Auberge le Pannier</h2>
+                <p class="mmn-left">Nuit à partir de 46<b>€</b></p>
+                <div class="mmn-left mmn-medium">
+                  <i class='fas fa-star line mmn-text-blue'></i>
+                  <i class='fas fa-star line mmn-text-blue'></i>
+                  <i class='fas fa-star line mmn-text-blue'></i>
+                  <i class='fas fa-star line mmn-text-blue'></i>
+                  <i class='fas fa-star line mmn-text-grey'></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="mmn-container card mmn-rounded mmn-padding">
+              <picture class="">
+                <img class="rounded-top-left rounded-top-right"src="../img/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Denim Jeans" style="width:100%">
+              </picture>
+              <div class="mmn-padding">
+                <h2 class="mmn-left">Hôtel chez Amina</h2>
+                <p class="mmn-left">Nuit à partir de 96<b>€</b></p>
+                <div class="mmn-left mmn-medium">
+                  <i class='fas fa-star line mmn-text-blue'></i>
+                  <i class='fas fa-star line mmn-text-blue'></i>
+                  <i class='fas fa-star line mmn-text-blue'></i>
+                  <i class='fas fa-star line mmn-text-blue'></i>
+                  <i class='fas fa-star line mmn-text-blue'></i>
+                </div>
+                </div>
+            </div>
+
           </div>
 
-          <div class="mmn-container mmn-left mmn-padding">
-            <h2>Afficher plus </h2>
+          <div class="mmn-left mmn-container ">
+              <h3>Afficher plus </h3>
           </div>
 
         </div>
 
       </section>
 
-      <aside class="mmn-third mmn-padding">
 
-        <div class="mmn-container mmn-rounded">
+      <aside class="mmn-third mmn-blue mmn-padding">
+        <div class="mmn-container mmn-rounded mmn-padding mmn-grey">
 
-          <div class="mmn-container mmn-left mmn-padding">
-
-              <h2 class="mmn-threequarter item">Les plus populaires</h2>
-              <div class="mmn-quarter">
-               <i class='fas fa-chart-line mmn-padding mmn-quarter mmn-right'></i>
-             </div>
-           </div>
-
-          <div class="flex-container">
-            <div>1</div>
-            <div>2</div>
-            <div>3</div>
+          <div class="mmn-container flex-container-stretch mmn-padding">
+            <div class="mmn-container mmn-left mmn-padding">
+              <h2 style="flex-grow: 9" >Hébérgement à Marseille</h2>
+            </div>
+             <div style="flex-grow: 0.1" class="mmn-blue"><i class='fas fa-chart-line '></i></div>
           </div>
+
+
+
+        <div class="mmn-container mmn-rounded mmn-grey ">
+
+          <div class="flex-container mmn-container">
+
+            <div class="mmn-container card mmn-rounded mmn-padding">
+              <div class="mmn-small-third">
+                <img class="rounded-top-left rounded-bottom-left"src="../img/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Denim Jeans" style="width:100%">
+              </div>
+              <div class="mmn-small-twothird">
+
+                <div class="box">
+
+                  <div class="mmn-blue"><h2>Hôtel Le Soleil du matin :)</h2></div>
+                  <div class="mmn-grey"><p>Nuit à partir de 96<b>€</b></p></div>
+
+
+                    <div class="mmn-medium">
+                      <i class='fas fa-star line mmn-text-blue'></i>
+                      <i class='fas fa-star line mmn-text-blue'></i>
+                      <i class='fas fa-star line mmn-text-blue'></i>
+                      <i class='fas fa-star line mmn-text-blue'></i>
+                      <i class='fas fa-star line mmn-text-blue'></i>
+                    </div>
+
+
+                </div>
+
+              </div>
+            </div>
+
+
+            <div class="mmn-container card mmn-rounded mmn-padding">
+              <div class="mmn-small-third">
+                <img class="rounded-top-left rounded-bottom-left"src="../img/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Denim Jeans" style="width:100%">
+              </div>
+              <div class="mmn-small-twothird">
+
+                <div class="box">
+
+                  <div class="mmn-blue"><h2>Au coeur de l'eau Chambres d'hôtes</h2></div>
+                  <div class="mmn-grey"><p>Nuit à partir de 71<b>€</b></p></div>
+
+
+                    <div class="mmn-medium">
+                      <i class='fas fa-star line mmn-text-blue'></i>
+                      <i class='fas fa-star line mmn-text-blue'></i>
+                      <i class='fas fa-star line mmn-text-blue'></i>
+                      <i class='fas fa-star line mmn-text-blue'></i>
+                      <i class='fas fa-star line mmn-text-grey'></i>
+                    </div>
+
+
+                </div>
+
+              </div>
+            </div>
+
+
+
+            <div class="mmn-container card mmn-rounded mmn-padding">
+              <div class="mmn-small-third">
+                <img class="rounded-top-left rounded-bottom-left"src="../img/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Denim Jeans" style="width:100%">
+              </div>
+              <div class="mmn-small-twothird">
+
+                <div class="box">
+
+                  <div class="mmn-blue"><h2>Hôtel Tout bleu et Blanc</h2></div>
+                  <div class="mmn-grey"><p>Nuit à partir de 68<b>€</b></p></div>
+
+
+                    <div class="mmn-medium">
+                      <i class='fas fa-star line mmn-text-blue'></i>
+                      <i class='fas fa-star line mmn-text-blue'></i>
+                      <i class='fas fa-star line mmn-text-blue'></i>
+                      <i class='fas fa-star line mmn-text-blue'></i>
+                      <i class='fas fa-star line mmn-text-blue'></i>
+                    </div>
+
+
+                </div>
+
+              </div>
+            </div>
+
+
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
 
       </aside>
 
@@ -162,6 +360,7 @@
               <li><a href="#">Nous contacter</a></li>
           </ul>
         </div>
+
 
     </footer>
 

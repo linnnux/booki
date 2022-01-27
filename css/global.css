@@ -40,20 +40,25 @@ p
 {
   font-size: 14px;
 }
-
+.mmn-tiny
+{
+  font-size: 10px;
+}
+.mmn-medium
+{
+  font-size: 12px;
+}
+.mmn-large
+{
+  font-size: 14px;
+}
 .mmn-container
 {
   width: 100%;
-  padding: 10px;
 
   display: flex;
 }
 
-.mmn-rounded
-{
-  border-radius: 25px;
-
-}
 
 .mmn-container, .mmn-half :after
 {
@@ -99,27 +104,6 @@ p
 }
 
 
-.flex-container
-{
-  display: flex;
-  justify-content: space-around;
-  background-color: DodgerBlue;
-  flex-wrap: wrap;
-  align-content: space-around;
-  overflow: scroll;
-
-}
-
-.flex-container > div
-{
-  background-color: #f1f1f1;
-  width: 200px;
-  margin: 5px;
-  text-align: center;
-  line-height: 75px;
-  font-size: 30px;
-  flex-grow: 3;
-}
 
 
 .mmn-right
@@ -191,6 +175,13 @@ p
 {
   border: 1px solid;
 }
+
+.mmn-rounded
+{
+  border-radius: 25px;
+
+}
+
 /* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px)
 {
@@ -227,7 +218,7 @@ p
   .flex-container-r > section
   {
     background-color: pink
-    width: 200px;
+    width: 100%;
     margin: 5px;
     text-align: center;
     line-height: 75px;
@@ -242,7 +233,16 @@ p
   border: 1px solid blue;
   background-color: yellow;
 }
-
+.flex-container > div
+{
+  background-color: #f1f1f1;
+  width: 100%;
+  margin: 5px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  flex-grow: 1;
+}
   .mmn-hide-small
   {
     display: none;

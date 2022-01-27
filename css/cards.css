@@ -1,0 +1,88 @@
+
+.card
+{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 425;
+  height: 200px;
+  margin: auto;
+  text-align: left;
+  position: relative;
+}
+aside .card
+{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 425;
+  height: 150px;
+
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+}
+
+.card img{
+  height: 130px;
+  object-fit: cover;
+}
+.rounded-top-left
+{
+  border-top-left-radius: 15px;
+}
+.rounded-top-right
+{
+  border-top-right-radius: 15px;
+}
+.rounded-bottom-left
+{
+  border-bottom-left-radius: 15px;
+}
+.rounded-bottom-right
+{
+  border-bottom-right-radius: 15px;
+}
+
+.card h2
+{
+  font-size: 16px;
+  padding: 0px;
+  margin: 0px;
+  background-color: brown;
+}
+.card p
+{
+  font-size: 12px;
+  padding: 0px;
+  margin: 0px;
+}
+
+
+aside .mmn-small-twothird
+{
+
+  width: 66.66%;
+}
+
+aside .mmn-small-third
+{
+  width: 33.33%;
+  background-color: pink;
+}
+
+/* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px)
+{
+
+
+  .card .mmn-small-twothird
+  {
+    width: 66.66%;
+    background-color: brown;
+
+  }
+  .mmn-small-third
+  {
+    width: 33.33%;
+    background-color: pink;
+
+  }
+
+}
