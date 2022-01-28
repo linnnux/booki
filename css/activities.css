@@ -5,11 +5,12 @@
 
 }
 
+
 .activities .card
 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 425;
-  height: 500px;
+
   margin: auto;
   text-align: left;
   position: relative;
@@ -26,11 +27,31 @@ article .activities .card
   flex-direction: row;
 }
 
-.activities .card img{
-  height: 450px;
+.activites img
+{
   object-fit: cover;
 }
-
+/
+.activities .card img
+{
+  height: 450px;
+}
+.activities .card .mmn-height-container img
+{
+   height: 390px;
+}
+.activities .card .mmn-height-half img
+{
+   height: 300px;
+}
+.activities .card .mmn-height-third img
+{
+  height: 110px;
+}
+.activities .card .mmn-height-twothird img
+{
+  height: 180px;
+}
 
 
 
