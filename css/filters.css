@@ -25,8 +25,13 @@
   border-radius: 50%;
   font-size: 18px;
 }
+.mmn-info
+{
+  float:left;
+  padding: 0px 8px 4px 8px;
+}
 .mmn-tag {
- background-color: var(--grey);
+
  border: none;
  color: black;
  text-align: center;
@@ -35,7 +40,7 @@
  margin: 4px 2px;
  cursor: pointer;
  border-radius: 20px;
- border: solid 1px var(--grey);
+ font-weight: bolder;
 }
 
 
@@ -50,7 +55,7 @@ input[type=text]
   cursor: pointer;
   float: left;
   height: 40px;
-  width: 125px;
+
 }
 
 
@@ -60,7 +65,6 @@ span.a {
   height: 100px;
   padding: 5px;
   border: 1px solid blue;
-  background-color: yellow;
 }
 .btn-group .button
 {
@@ -118,9 +122,14 @@ span.a {
   {
     display: block;
     width: 100%;
-    background-color: pink;
     text-align: justify;
     justify-content: space-between;
+  }
+  input[type=text]
+  {
+    width: 70%;
+    max-width: 250px;
+    min-width: 100px;
   }
 
 }

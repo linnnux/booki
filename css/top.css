@@ -3,7 +3,7 @@
 .topnav
 {
   overflow: hidden;
-  background-color: #333;
+  height: 50px;
 
 }
 
@@ -12,24 +12,21 @@
 {
   float: right;
   display: block;
-  color: grey;
   text-align: center;
   padding: 14px 18px;
   text-decoration: none;
+  color: black;
 }
 
 /* Change color on hover */
 .topnav a:hover
 {
-  background-color: grey;
   color: var(--blue);
-  border-top: var(--blue) solid 2px
+  border-top: var(--blue) solid 4px
 }
 .topnav .logo
 {
   float: left;
-  background-color: var(--grey);
-
   text-align: left;
   display: block;
   /* https://fonts.google.com/specimen/Rancho?preview.text=Booki&preview.text_type=custom */
@@ -40,7 +37,7 @@
 }
 .topnav .logo a:hover
 {
-  background-color: grey;
+  background-color: white;
   color: var(--blue);
   border: var(--blue) solid 0px
 
@@ -62,7 +59,6 @@
   }
   .topnav a:hover
   {
-    background-color: grey;
     color: var(--blue);
     border-top: 0px;
     border-bottom: var(--blue) solid 2px
@@ -72,7 +68,6 @@
     width: 50%;
     float: left;
     display: block;
-    color: grey;
     text-align: center;
     padding: 14px 18px;
     text-decoration: none;
@@ -83,14 +78,12 @@
     text-align: center;
     margin: auto;
     width: 100%;
-    background-color: brown;
   }
   .topnav .logo a
   {
     width: 100%;
     float: left;
     display: block;
-    color: grey;
     text-align: center;
 
   }

@@ -1,8 +1,6 @@
 .activities
 {
-  background-color: yellow;
   padding: 2px;
-
 }
 
 
@@ -12,7 +10,6 @@
   max-width: 425;
   text-align: left;
   position: relative;
-  background-color: pink;
 }
 article .activities .card
 {
@@ -65,14 +62,10 @@ article .activities .card
   .card .mmn-small-twothird
   {
     width: 66.66%;
-    background-color: brown;
-
   }
   .mmn-small-third
   {
     width: 33.33%;
-    background-color: pink;
-
   }
   .activities .card img
   {
