@@ -67,6 +67,10 @@ aside .column
   max-height: 50px;
 }
 
+.mmn-flex-grow
+{
+  flex-grow: 9;
+}
 /* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px)
 {
