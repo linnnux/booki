@@ -67,6 +67,11 @@ aside .mmn-small-third
   width: 33.33%;
 }
 
+aside article 
+{
+  margin-bottom: 16px;
+  margin-top: 16px;
+}
 /* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px)
 {

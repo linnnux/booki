@@ -17,6 +17,16 @@
   font-size: 20px;
   flex-grow: 3;
 }
+.flex-container > article
+{
+  width: 200px;
+  margin: 5px;
+  margin-bottom: 20px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 20px;
+  flex-grow: 3;
+}
 .flex-container-stretch
 {
   display: flex;
@@ -67,9 +77,13 @@ aside .column
   max-height: 50px;
 }
 
-.mmn-flex-grow
+.mmn-flex-grow-max
 {
   flex-grow: 9;
+}
+.mmn-flex-grow-min
+{
+  flex-grow: 1;
 }
 /* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px)
@@ -89,7 +103,6 @@ aside .column
   #content
   {
     width: 100%;
-    border: 1px solid #c3c3c3;
     display: flex;
     flex-direction: column-reverse;
     float: left;

@@ -3,7 +3,7 @@
 .topnav
 {
   overflow: hidden;
-  height: 50px;
+  height: 100px;
 
 }
 
@@ -13,9 +13,10 @@
   float: right;
   display: block;
   text-align: center;
-  padding: 14px 18px;
+  padding: 18px 38px;
   text-decoration: none;
   color: black;
+  font-size: 20px;
 }
 
 /* Change color on hover */
@@ -24,16 +25,10 @@
   color: var(--blue);
   border-top: var(--blue) solid 4px
 }
-.topnav .logo
-{
-  float: left;
-  text-align: left;
-  display: block;
-  /* https://fonts.google.com/specimen/Rancho?preview.text=Booki&preview.text_type=custom */
-  font-family: 'Rancho', cursive;
-  color: var(--blue);
-  font-size: 38px;
 
+.topnav h2
+{
+  font-weight: lighter;
 }
 .topnav .logo a:hover
 {
@@ -73,6 +68,13 @@
     text-decoration: none;
   }
   .topnav .logo
+  {
+    overflow: hidden;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+  }
+  h1
   {
     overflow: hidden;
     text-align: center;
