@@ -1,20 +1,17 @@
 
 .card
 {
+  --height:  150px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 425;
-  height: 200px;
-  margin: auto;
+  max-height: 200px;
   text-align: left;
   position: relative;
+
 }
 aside .card
 {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 425;
   height: 150px;
-
-  text-align: left;
   display: flex;
   flex-direction: row;
 }

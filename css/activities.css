@@ -10,8 +10,6 @@
 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 425;
-
-  margin: auto;
   text-align: left;
   position: relative;
   background-color: pink;
@@ -35,6 +33,7 @@ article .activities .card
 .activities .card img
 {
   height: 450px;
+
 }
 .activities .card .mmn-height-container img
 {
@@ -53,7 +52,10 @@ article .activities .card
   height: 180px;
 }
 
-
+.activities .mmn-margin-bottom-64
+{
+  margin-bottom: 45px;
+}
 
 /* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px)
@@ -71,6 +73,40 @@ article .activities .card
     width: 33.33%;
     background-color: pink;
 
+  }
+  .activities .card img
+  {
+     height: 200px;
+
+  }
+  .activities .mmn-quarter
+  {
+    width: 100%;
+    float: left;
+    margin-bottom: 30px;
+    padding: 0px;
+  }
+
+
+  .activities .card .mmn-height-container img
+  {
+     height: var(--height);
+  }
+  .activities .card .mmn-height-half img
+  {
+     height: var(--height);
+  }
+  .activities .card .mmn-height-third img
+  {
+    height: var(--height);
+  }
+  .activities .card .mmn-height-twothird img
+  {
+    height: var(--height);
+  }
+  .activities .card
+  {
+    height: var(--height);
   }
 
 }

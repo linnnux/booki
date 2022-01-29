@@ -125,47 +125,6 @@ p
 
 }
 
-
-.mmn-padding
-{
-  padding: 8px;
-}
-.mmn-padding-16
-{
-  padding: 16px;
-}
-.mmn-padding-32
-{
-  padding: 32px;
-}
-.mmn-margin
-{
-  margin: 8px;
-}
-{
-  margin-top: 8px;
-}
-.mmn-margin-bootom
-{
-  margin-bottom: 8px;
-}
-.mmn-margin-top
-{
-  margin-top: 8px;
-}
-.mmn-margin-left
-{
-  margin-left: 8px;
-}
-.mmn-margin-right
-{
-  margin-right: 8px;
-}
-
-.item {
-  align-self: auto | flex-start | flex-end | center | baseline | stretch;
-}
-
 .mmn-circle
 {
   border-radius: 50%;
@@ -203,28 +162,7 @@ p
     background-color: yellow;
     padding: 50px;
   }
-  .flex-container-r
-  {
-    display: flex;
-    justify-content: space-around;
-    background-color: purple;
-    flex-wrap: wrap;
-    align-content: space-around;
-    overflow: scroll;
-    flex-direction: row-reverse;
-
-  }
-
-  .flex-container-r > section
-  {
-    background-color: pink
-    width: 100%;
-    margin: 5px;
-    text-align: center;
-    line-height: 75px;
-    font-size: 30px;
-    flex-grow: 3;
-  }
+  
   span.a {
   display: inline; /* the default for span */
   width: 100px;
