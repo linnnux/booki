@@ -17,7 +17,7 @@
 .button:hover
 {
  background-color: var(--light-grey);
- box-shadow: var(--grey);
+ box-shadow: 1px 1px 1px 1px grey;
 }
 .icon
 {
