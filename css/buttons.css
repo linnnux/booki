@@ -1,0 +1,128 @@
+
+.button
+{
+ border: none;
+ color: black;
+ padding: 0px 14px 0px 0px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ margin: 4px 0px;
+ cursor: pointer;
+ /*border-radius: 25px;*/
+ border: solid 2px var(--grey);
+ font-weight: bold;
+ font-size: 14px;
+}
+.button:hover
+{
+ background-color: var(--light-grey);
+ box-shadow: var(--grey);
+}
+.icon
+{
+  padding: 10px;
+  background-color: var(--blue-light);
+  color: var(--blue);
+  border-radius: 50%;
+  font-size: 18px;
+}
+.mmn-info
+{
+  float:left;
+  padding: 0px 8px 4px 8px;
+}
+.mmn-tag
+{
+ border: none;
+ color: black;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ margin: 4px 2px;
+ cursor: pointer;
+ border-radius: 20px;
+ font-weight: bolder;
+}
+
+
+input[type=text]
+{
+  padding: 1px;
+  margin-top: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  float: left;
+  height: 40px;
+}
+
+
+span.a
+{
+  display: inline; /* the default for span */
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid blue;
+}
+.btn-group .button
+{
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  float: left;
+}
+
+.btn-group .button:not(:last-child)
+{
+  border-right: none; /* Prevent double borders */
+}
+
+
+.mmn-rounded-left
+{
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+.mmn-rounded-left-l
+{
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+.mmn-rounded-right
+{
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+.mmn-rounded-right-l
+{
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+
+/* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px)
+{
+
+  span.block
+  {
+    display: block;
+    width: 100%;
+    text-align: justify;
+    justify-content: space-between;
+  }
+  input[type=text]
+  {
+    width: 60%;
+    max-width: 250px;
+
+  }
+
+}

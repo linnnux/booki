@@ -27,20 +27,7 @@
   font-size: 20px;
   flex-grow: 3;
 }
-.flex-container-stretch
-{
-  display: flex;
-  align-items: stretch;
 
-}
-
-.flex-container-stretch > div
-{
-  margin: 1px;
-  align-self: center;
-  padding: 5px;
-
-}
 aside .row
 {
   display: flex;
@@ -77,14 +64,7 @@ aside .column
   max-height: 50px;
 }
 
-.mmn-flex-grow-max
-{
-  flex-grow: 9;
-}
-.mmn-flex-grow-min
-{
-  flex-grow: 1;
-}
+
 /* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px)
 {

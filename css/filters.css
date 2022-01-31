@@ -1,22 +1,4 @@
 
-.button {
- border: none;
- color: black;
- padding: 0px 14px 0px 0px;
- text-align: center;
- text-decoration: none;
- display: inline-block;
- margin: 4px 0px;
- cursor: pointer;
- /*border-radius: 25px;*/
- border: solid 2px var(--grey);
- font-weight: bold;
- font-size: 14px;
-}
-.button:hover {
- background-color: #f1f1f1;
- box-shadow: 1px 1px 1px 1px grey;
-}
 .icon
 {
   padding: 10px;
@@ -30,19 +12,6 @@
   float:left;
   padding: 0px 8px 4px 8px;
 }
-.mmn-tag {
-
- border: none;
- color: black;
- text-align: center;
- text-decoration: none;
- display: inline-block;
- margin: 4px 2px;
- cursor: pointer;
- border-radius: 20px;
- font-weight: bolder;
-}
-
 
 input[type=text]
 {
@@ -55,69 +24,23 @@ input[type=text]
   cursor: pointer;
   float: left;
   height: 40px;
-
 }
 
 
-span.a {
+span.a
+{
   display: inline; /* the default for span */
   width: 100px;
   height: 100px;
   padding: 5px;
   border: 1px solid blue;
 }
-.btn-group .button
-{
-  padding: 10px 10px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  cursor: pointer;
-  float: left;
-}
-
-.btn-group .button:not(:last-child) {
-  border-right: none; /* Prevent double borders */
-}
 
 
-.mmn-rounded-left
-{
-  border-top-left-radius: 25px;
-  border-bottom-left-radius: 25px;
-}
-.mmn-rounded-left-l
-{
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
-}
-.mmn-rounded-right
-{
-  border-top-right-radius: 25px;
-  border-bottom-right-radius: 25px;
-}
-.mmn-rounded-right-l
-{
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-}
-.mmn-hide
-{
-  display: none;
-}
 /* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px)
 {
 
-  .h3
-  {
-   margin-right: 100%;
-  }
-  .mmn-hide
-  {
-    display: contents;
-  }
   span.block
   {
     display: block;

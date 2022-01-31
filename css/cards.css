@@ -8,8 +8,8 @@
   text-align: left;
   position: relative;
   background-color: white;
-
 }
+
 aside .card
 {
   height: 150px;
@@ -17,14 +17,18 @@ aside .card
   flex-direction: row;
 }
 
-.card img{
+.card img
+{
   height: 115px;
   object-fit: cover;
 }
-aside .card img{
+
+aside .card img
+{
   height: 130px;
   object-fit: cover;
 }
+
 .rounded-top-left
 {
   border-top-left-radius: 15px;
@@ -67,15 +71,16 @@ aside .mmn-small-third
   width: 33.33%;
 }
 
-aside article 
+aside article
 {
   margin-bottom: 16px;
   margin-top: 16px;
 }
+
+
 /* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px)
 {
-
 
   .card .mmn-small-twothird
   {
