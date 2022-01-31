@@ -16,6 +16,8 @@
   line-height: 20px;
   font-size: 20px;
   flex-grow: 3;
+  justify-content: center;
+ align-items: center;
 }
 .flex-container > article
 {
